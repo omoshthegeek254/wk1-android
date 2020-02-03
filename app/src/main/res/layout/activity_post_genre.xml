@@ -72,4 +72,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/genre3Text"
         app:layout_constraintVertical_bias="0.178" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FDFFC73B"
+        android:text="Enter Your Favourite Genres "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/genre1Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

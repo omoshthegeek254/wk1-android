@@ -22,12 +22,12 @@ public class DisplayGenreActivity extends AppCompatActivity {
         // Capture the layout's TextView and set the string as its text
 
         TextView genre1View = findViewById(R.id.genre1View);
-        genre1View.setText(genre1);
+        genre1View.setText("1."+genre1);
 
         TextView genre2View = findViewById(R.id.genre2View);
-        genre2View.setText(genre2);
+        genre2View.setText("2."+genre2);
 
         TextView genre3View = findViewById(R.id.genre3View);
-        genre3View.setText(genre3);
+        genre3View.setText("3."+genre3);
     }
 }

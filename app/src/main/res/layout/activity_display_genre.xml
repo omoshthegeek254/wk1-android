@@ -51,7 +51,9 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
-        android:text="Your Preffered Genres are :"
+        android:text="Your Preferred Genres are :"
+        android:background="#FDFFC73B"
+
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/genre1View"
         app:layout_constraintEnd_toEndOf="parent"

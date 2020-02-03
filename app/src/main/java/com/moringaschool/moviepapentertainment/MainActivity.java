@@ -14,7 +14,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.postGenresButton)
-    Button mPostRestaurantsButton;
+    Button mPostGenresButton;
     @BindView(R.id.introTextView)
     TextView mIntroTextView;
     @BindView(R.id.introTitleTextView)
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        mPostRestaurantsButton.setOnClickListener(new View.OnClickListener() {
+        mPostGenresButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, PostGenreActivity.class);

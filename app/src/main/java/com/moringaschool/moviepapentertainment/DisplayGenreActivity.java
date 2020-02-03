@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DispalyGenresActivity extends AppCompatActivity {
+public class DisplayGenreActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dispaly_genres);
+        setContentView(R.layout.activity_display_genre);
     }
 }

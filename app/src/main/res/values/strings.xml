@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Moviepap Entertainment</string>
+    <string name="genre_1">Enter 1st Genre</string>
+    <string name="genre_2">Enter 2nd Genre</string>
+    <string name="genre_3">Enter 3rd Genre</string>
+    <string name="button_send">Send</string>
+    <string name="buttton_redirect">Post Genre</string>
 </resources>
